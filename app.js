@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // get api
-app.get('/api', api);
+app.get('/', api);
 
 // error handler
 app.use(function(err, req, res, next) {
